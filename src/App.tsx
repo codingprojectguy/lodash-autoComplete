@@ -44,7 +44,7 @@ useEffect(()=> {
     return;
   }
   memoDebouncedSearch(input);
-},[input,memoDebouncedSearch])
+},[input])
   return (
     <>
     <div className='app'>
