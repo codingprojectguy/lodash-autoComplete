@@ -1,0 +1,39 @@
+:root {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+
+.suggestions{
+  border: apx solid black;
+
+}
+.suggestions ul{
+  list-style-type: none ;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  align-items: flex-start;
+} 
+
+.suggestions li{
+  padding: 3px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: left;
+  cursor: pointer;
+}
+
+.suggestions li:hover{
+  background-color: #888;
+}
+
+.submitkey{
+  padding: 20px;
+  border: 5px black;
+  margin: 5px;
+}
